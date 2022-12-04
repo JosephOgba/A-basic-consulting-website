@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaBars} from 'react-icons/fa'
 import office_building from './Images/office_building.jpg'
 
 
@@ -10,7 +11,7 @@ function Navbar() {
         <img src={office_building} alt ='office_building'/>
          </a>
        <div className= 'hamburger'>
-        
+         <FaBars />
        </div>
        </nav>
     </div>
