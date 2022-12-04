@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaBars} from 'react-icons/fa'
-import office_building from './Images/office_building.jpg'
+import logo from './Images/logo.png'
 
 
 function Navbar() {
@@ -8,11 +8,14 @@ function Navbar() {
     <div className='header'>
        <nav className='navBar'> 
        <a href='/' className=''>
-        <img src={office_building} alt ='office_building'/>
+        <img src={logo} alt ='logo'/>
          </a>
        <div className= 'hamburger'>
          <FaBars />
        </div>
+       <ul>
+        <li className='nav-item'></li>
+       </ul>
        </nav>
     </div>
   )
