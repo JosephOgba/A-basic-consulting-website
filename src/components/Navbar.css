@@ -30,6 +30,10 @@
   
 }
 
+.header .nav-menu a {
+  color: white;
+}
+
 .header .nav-item {
   padding: 1rem;
   font-weight: 500;
@@ -65,7 +69,7 @@
   .nav-menu{
     position: fixed;
     left:-100%;
-    top:6rem;
+    top:100px;
     flex-direction: column;
     background-color: rgba(0,0,0,.9);
     width: 100%;
